@@ -1,0 +1,1 @@
+You can copy ALUand7segmentsConversor code and paste on your project.

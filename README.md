@@ -37,7 +37,7 @@ Sum of binaries
 1 + 1
 ``` 
 
-The binary system only goes up to 1, so 1 + 1 and it couldn't be 2. So the result will be 0 and carry 1 to the next one, let's see that now:
+The binary system only goes up to 1, so 1 + 1 couldn't be 2. So the result will be 0 and carry 1 to the next one, let's see that now:
 
 |Carry     | |1| |
 | -------- |-|-|-|
@@ -45,7 +45,7 @@ The binary system only goes up to 1, so 1 + 1 and it couldn't be 2. So the resul
 |B         |+| |1|
 |**Result**| |1|0|
 
-For you to visualize better let's add using the decimal system to understand better:
+For you to visualize let's add using the decimal system to understand better:
 
 |Carry     | |1| |
 | -------- |-|-|-|

@@ -1,4 +1,4 @@
-# Cpp 4 Bit ALU Hex Display Tinkercad
+# 4 Bit ALU Hex Display Tinkercad
 
 This project works with the representation of a low level machine in 1 bit. The levels of organization of the computer system are presented from the electronic and digital logic to the user. 
 
@@ -69,7 +69,9 @@ To better understand the sum of binary values, let's see the truth table of the 
 
 # Project
 
-You can download this project and use the .ino code or copy from txt, cpp or ino file. To assemble the prototype on the arduino you need the following items: 
+You can download this project and use the .ino code or copy from txt, cpp or ino file. 
+
+To assemble the prototype on the arduino you need the following items: 
 
 ## Itens
 - 12 resistors.

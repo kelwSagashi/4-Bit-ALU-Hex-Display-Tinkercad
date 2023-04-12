@@ -2,7 +2,8 @@
 
 This project works with the representation of a low level machine in 1 bit. The levels of organization of the computer system are presented from the electronic and digital logic to the user. 
 
-The **.ino** code available in this repository simulates the operation of an **ALU (arithmetic logic unit)** with 4 operations: AND (&&), NOT B (~B), OR (|) or Add (A+B) and it use output result of the operation performed by the ALU (call this output "S") to print on the 7-segment Display. Through the Karnaugh map, we can use the "S" output and perform Boolean operations to activate or deactivate each segment of the display. 
+The **.ino** code available in this repository simulates the operation of an **ALU (arithmetic logic unit)** with 4 operations: AND (&&), NOT B (~B), OR (|) or Add (A+B).
+The code uses the output result of the operation performed by the ALU (call this output "S") to print on the 7-segment Display. Through the Karnaugh map, we can use the "S" output and perform Boolean operations to activate or deactivate each segment of the display. 
 
 # [Binary/hexadecimal decoder using 7-segment display and Arduino (video in Brazilian Portuguese)](https://www.youtube.com/watch?v=uicrqOhSp2Q)
 

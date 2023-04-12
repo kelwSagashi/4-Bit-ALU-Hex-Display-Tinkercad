@@ -2,8 +2,13 @@
 
 This project works with the representation of a low level machine in 1 bit. The levels of organization of the computer system are presented from the electronic and digital logic to the user. 
 
-The ```.ino``` code available in this repository simulates the operation of an **ALU (arithmetic logical unit)** with 4 operations: and, not B, or and sum.
-The arduino has a limited number of inputs on the pins, but enough to build a circuit that allows 4-bit input on A and 4-bit input on B. As we are working with 4 bits, there are 16 possible combinations. each represents a number. The hexadecimal representation does is used a lot in computing and serves the purpose of this project. Below you will see this table:
+The **.ino** code available in this repository simulates the operation of an **ALU (arithmetic logic unit)** with 4 operations: e, not B, or sum and use of the "S" output result of the operation performed by the ALU to print on the 7-segment Display . Through the Karnaugh map, we can use the "S" output and perform Boolean operations to activate or deactivate each segment of the display. 
+
+# [Binary/hexadecimal decoder using 7-segment display and Arduino (video in Brazilian Portuguese)](https://www.youtube.com/watch?v=uicrqOhSp2Q)
+
+This video shows a code used as a base in to do the functions of converting bits into a hexadecimal output. This project used as a basis the construction of the prototype shown in the link and the working knowledge of an ALU and low-level machines, through **computer organization** classes of the curricular component of the **Computer Science course**.
+
+# Concepts and Tables
 
 | Binary      | Decimal | Hexadecimal |
 | ----------- | ------- | ----------- |
@@ -60,7 +65,19 @@ To better understand the sum of binary values, let's see the truth table of the 
 | 1 | 1 | 0   | 0   | 1    |
 | 1 | 1 | 1   | 1   | 1    |
 
-You can download this project and use the .ino code or copy from txt, cpp or ino file. To assemble the prototype on the arduino you need the following items: 12 resistors, 2 of 220 ohm and the rest of 1 k ohm. 31 jumpers or wires. 2 DIP switches DPST x 4 . 1 led. 1 arduino one. 2 slide switches.
+
+# Project
+
+You can download this project and use the .ino code or copy from txt, cpp or ino file. To assemble the prototype on the arduino you need the following items: 
+
+## Itens
+- 12 resistors.
+- 2 of 220 ohm and the rest of 1 k ohm.
+- 31 jumpers or wires. 
+- 2 DIP switches DPST x 4. 
+- 1 led. 
+- 1 arduino UNO. 
+- 2 slide switches.
 
 Below you can see the schematic assembled in tinkercad. do the assembly using the same pins, because inside the code the first 13 pins are initialized in a list starting from digital pin 2 to be of **INPUT** type.
 

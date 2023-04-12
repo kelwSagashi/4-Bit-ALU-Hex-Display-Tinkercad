@@ -79,6 +79,7 @@ You can download this project and use the .ino code or copy from txt, cpp or ino
 - 1 led. 
 - 1 arduino UNO. 
 - 2 slide switches.
+- 1 Common anode 7-segment Display 
 
 Below you can see the schematic assembled in tinkercad. 
 

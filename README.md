@@ -7,7 +7,11 @@ The code made available in this repository creates a program that imitates the o
 [what are the levels of computer system organization?](https://www.tutorialspoint.com/what-are-the-levels-of-computer-system-organization)
 
 
-The **.ino** code available in this repository simulates the operation of an **ALU** with 4 operations: AND (&&), NOT B (~B), OR (|) or Add (A+B).
+The **.ino** code available in this repository simulates the operation of an **ALU** with 4 operations: 
+1. AND (&&)
+2. NOT B (~B)
+3. OR (|)
+4. Add (A+B).
 The code uses the output result of the operation performed by the ALU (call this output "S") to print on the 7-segment Display. Through the Karnaugh map, we can use the "S" output and perform Boolean operations to activate or deactivate each segment of the display. 
 
 # [Binary/hexadecimal decoder using 7-segment display and Arduino (video in Brazilian Portuguese)](https://www.youtube.com/watch?v=uicrqOhSp2Q)

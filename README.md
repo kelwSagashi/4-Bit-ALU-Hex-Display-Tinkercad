@@ -7,7 +7,9 @@ The code uses the output result of the operation performed by the ALU (call this
 
 # [Binary/hexadecimal decoder using 7-segment display and Arduino (video in Brazilian Portuguese)](https://www.youtube.com/watch?v=uicrqOhSp2Q)
 
-This video shows a code used as a base in to do the functions of converting bits into a hexadecimal output. This project used as a basis the construction of the prototype shown in the link, working knowledge of an ALU and low-level machines, through **computer organization** classes of the curricular component of the **Computer Science** course.
+This video shows a code used as a base in to do the functions of converting bits into a hexadecimal output. 
+
+This code from repository used as a basis the construction of the prototype shown in the link, working knowledge of an ALU and low-level machines, through **computer organization** classes of the curricular component of the **Computer Science** course.
 
 # Concepts and Tables
 

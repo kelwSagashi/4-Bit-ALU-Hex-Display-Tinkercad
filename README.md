@@ -80,7 +80,10 @@ You can download this project and use the .ino code or copy from txt, cpp or ino
 - 1 arduino UNO. 
 - 2 slide switches.
 
-Below you can see the schematic assembled in tinkercad. do the assembly using the same pins, because inside the code the first 13 pins are initialized in a list starting from digital pin 2 to be of **INPUT** type.
+Below you can see the schematic assembled in tinkercad. 
+
+### Obs: 
+Do the assembly using the same pins, because inside the code the first 13 pins are initialized in a list starting from digital pin 2 to be of **INPUT** type.
 
 ``` C++
 for (int i = 0; i < 13; i++){

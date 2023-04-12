@@ -2,16 +2,26 @@
 
 This project works with the representation of a low level machine in 1 bit. The levels of organization of the computer system are presented from the electronic and digital logic to the user. 
 
-The **.ino** code available in this repository simulates the operation of an **ALU (arithmetic logic unit)** with 4 operations: AND (&&), NOT B (~B), OR (|) or Add (A+B).
+The code made available in this repository creates a program that imitates the operation of the lowest levels of a computer's organization, which would be an **ALU (arithmetic logical unit)**, a component of the computer responsible for the calculations performed by the machine.
+
+[what are the levels of computer system organization?](https://www.tutorialspoint.com/what-are-the-levels-of-computer-system-organization)
+
+
+The **.ino** code available in this repository simulates the operation of an **ALU** with 4 operations: AND (&&), NOT B (~B), OR (|) or Add (A+B).
 The code uses the output result of the operation performed by the ALU (call this output "S") to print on the 7-segment Display. Through the Karnaugh map, we can use the "S" output and perform Boolean operations to activate or deactivate each segment of the display. 
 
 # [Binary/hexadecimal decoder using 7-segment display and Arduino (video in Brazilian Portuguese)](https://www.youtube.com/watch?v=uicrqOhSp2Q)
 
-This video shows a code used as a base in to do the functions of converting bits into a hexadecimal output. 
+This link above is to a video that shows a code used as a base in to do the functions of converting bits into a hexadecimal output. 
 
 This repository code used as a basis the construction of the prototype shown in the link, working knowledge of an ALU and low-level machines, through **computer organization** classes of the curricular component of the **Computer Science** course.
 
 # Concepts and Tables
+
+In this project, we work with 4 bits, inputs A and B have 4 bits. and provide a 4-bit output plus an overflow if there is any addition involved.
+
+With 4 bits we have a total of 16 combinations. the hexadecimal system can make a numerical representation of these bits.
+let's see the table below:
 
 | Binary      | Decimal | Hexadecimal |
 | ----------- | ------- | ----------- |

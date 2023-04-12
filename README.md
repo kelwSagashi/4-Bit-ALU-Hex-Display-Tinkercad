@@ -18,9 +18,9 @@ This repository code used as a basis the construction of the prototype shown in 
 
 # Concepts and Tables
 
-In this project, we work with 4 bits, inputs A and B have 4 bits. and provide a 4-bit output plus an overflow if there is any addition involved.
+In this project work with inputs A and B that have 4 bits and provide a 4-bit output plus an overflow if there is any addition involved.
 
-With 4 bits we have a total of 16 combinations. the hexadecimal system can make a numerical representation of these bits.
+With 4 bits we have a total of 16 combinations. The hexadecimal system can make a numerical representation of these bits.
 let's see the table below:
 
 | Binary      | Decimal | Hexadecimal |
